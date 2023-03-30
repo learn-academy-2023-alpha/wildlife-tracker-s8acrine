@@ -36,9 +36,9 @@ Hint: Date is written in Active Record as yyyy-mm-dd (“2022-07-28")
 ## Branch: animal-sightings-reports
 ## Acceptance Criteria
 
-[ ]Can see one animal with all its associated sightings
+[X]Can see one animal with all its associated sightings
 Hint: Checkout this example on how to include associated records
-[ ]Can see all the all sightings during a given time period
+[X]Can see all the all sightings during a given time period
 Hint: Your controller can use a range to look like this:
 class SightingsController < ApplicationController
   def index
