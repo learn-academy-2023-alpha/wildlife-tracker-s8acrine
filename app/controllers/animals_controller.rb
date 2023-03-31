@@ -38,6 +38,6 @@ class AnimalsController < ApplicationController
 
     private
     def animal_params
-        params.require(:animal).permit(:name, :scientific_name)
+        params.require(:animal).permit(:name, :scientific_name, sightings_attributes: [:longitude, :latitude, :date])        
     end
 end
